@@ -4,6 +4,7 @@ import {useNavigate} from "react-router-dom"
 
 const Homepage = () => {
   const {socket} = useSocket();
+  
   const navigate = useNavigate();
   
   const [email, setEmail] = useState();
